@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 导入Spring的约束
+    Spring的IoC约束:beans
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- 配置业务层对象
+        bean标签：
+            作用：用于让spring帮我们读取配置后创建对象
+            属性：
+                id：对象的唯一标识
+                class：要创建对象的全限定名
+    -->
+
+    <!-- 配置服务层对象 -->
+    <bean id="accountService" class="com.wangyu.service.impl.IAccountServiceImpl"/>
+    <!-- 配置持久层对象 -->
+    <bean id="accountDao" class="com.wangyu.dao.impl.AccountDaoImpl"/>
+</beans>
