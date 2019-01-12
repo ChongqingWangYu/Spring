@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3b313153-c777-4a39-8c3a-34112cbbf005" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_13_beta_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring_Anno_Ioc.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-4.13-beta-1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.44-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/config/SpringConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/dao/impl/AccountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/domain/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/service/IAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl_old.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/test/IAccountServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/ui/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/util/DBAssit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/util/ResultSetHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/wangyu/util/impl/BeanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbcConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_Xml_Ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Xml_Ioc/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Spring_Anno_Ioc$IAccountServiceTest_saveAccount.ic" NAME="IAccountServiceTest.saveAccount Coverage Results" MODIFIED="1547300293755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wangyu.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_Anno_Ioc$IAccountServiceTest.ic" NAME="IAccountServiceTest Coverage Results" MODIFIED="1547299196793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wangyu.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_Anno_Ioc$IAccountServiceTest_updateAccount.ic" NAME="IAccountServiceTest.updateAccount Coverage Results" MODIFIED="1547300564722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wangyu.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Spring_Anno_Ioc$IAccountServiceTest_deleteAccount.ic" NAME="IAccountServiceTest.deleteAccount Coverage Results" MODIFIED="1547300623182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wangyu.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="150" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\WangYu" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2120147522">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="48" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="48" />
+          <entry key="Properties" value="2" />
+          <entry key="XML" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="9" />
+          <entry key="java" value="2586" />
+          <entry key="properties" value="35" />
+          <entry key="xml" value="327" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2586" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="35" />
+          <entry key="XML" value="327" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/wangyu/dao/impl/AccountDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/IAccountServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dbAssit</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="I:/软件安装包/Java/Spring/spring-framework-5.1.4.RELEASE" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/wangyu/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/wangyu/dao/impl/AccountDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/jdbcConfig.properties" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/config/SpringConfiguration.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/domain/Account.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/service/IAccountService.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/util/dbassit.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/util/dbAssit.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/util/ResultSetHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/util/impl/BeanHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/dao/IAccountDao.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/ui/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl_old.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/bean.xml" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/util/DBAssit.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/dao/impl/AccountDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/test/IAccountServiceTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="I:\Maven\apache-maven-3.6.0" />
+        <option name="mavenHome" value="$MAVEN_REPOSITORY$" />
+        <option name="userSettingsFile" value="I:\Maven\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>ActionScript specificJavaScript</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Batch Applications</id>
+          </State>
+          <State>
+            <id>Flow type checkerJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralScala</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>LintLintAndroid</id>
+          </State>
+          <State>
+            <id>Method signatureScala</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>OtherGroovy</id>
+          </State>
+          <State>
+            <id>PortabilityJava</id>
+          </State>
+          <State>
+            <id>Scala</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Struts</id>
+          </State>
+          <State>
+            <id>Struts 1Struts</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547300716871" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wangyu.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\ProjectSave\IDEA\Spring\Spring_Anno_Ioc\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\ProjectSave\IDEA\Spring\Spring_Anno_Ioc\lib" />
+      <recent name="I:\ProjectSave\IDEA\Spring\Spring_Anno_Ioc\src\com\wangyu\util" />
+      <recent name="I:\ProjectSave\IDEA\Spring\Spring_Anno_Ioc\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wangyu.util" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.IAccountServiceTest.deleteAccount">
+    <configuration name="IAccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Anno_Ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wangyu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IAccountServiceTest.deleteAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Anno_Ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wangyu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
+      <option name="METHOD_NAME" value="deleteAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IAccountServiceTest.findAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Anno_Ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wangyu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
+      <option name="METHOD_NAME" value="findAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IAccountServiceTest.saveAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Anno_Ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wangyu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
+      <option name="METHOD_NAME" value="saveAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IAccountServiceTest.updateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Anno_Ioc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wangyu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
+      <option name="METHOD_NAME" value="updateAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.IAccountServiceTest" />
+      <item itemvalue="JUnit.IAccountServiceTest.saveAccount" />
+      <item itemvalue="JUnit.IAccountServiceTest.findAccount" />
+      <item itemvalue="JUnit.IAccountServiceTest.updateAccount" />
+      <item itemvalue="JUnit.IAccountServiceTest.deleteAccount" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IAccountServiceTest.deleteAccount" />
+        <item itemvalue="JUnit.IAccountServiceTest.updateAccount" />
+        <item itemvalue="JUnit.IAccountServiceTest.findAccount" />
+        <item itemvalue="JUnit.IAccountServiceTest.saveAccount" />
+        <item itemvalue="JUnit.IAccountServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3b313153-c777-4a39-8c3a-34112cbbf005" name="Default Changelist" comment="" />
+      <created>1547272625162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547272625162</updated>
+      <workItem from="1547272627946" duration="1064000" />
+      <workItem from="1547278970219" duration="10883000" />
+      <workItem from="1547297580319" duration="3162000" />
+      <workItem from="1547300795603" duration="33000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="IAccountServiceTest_saveAccount - 2019.01.12 at 21h 17m 26s.xml">
+      <configuration name="IAccountServiceTest.saveAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest - 2019.01.12 at 21h 18m 45s.xml">
+      <configuration name="IAccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest - 2019.01.12 at 21h 19m 25s.xml">
+      <configuration name="IAccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest - 2019.01.12 at 21h 19m 59s.xml">
+      <configuration name="IAccountServiceTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest_saveAccount - 2019.01.12 at 21h 35m 56s.xml">
+      <configuration name="IAccountServiceTest.saveAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest_saveAccount - 2019.01.12 at 21h 37m 41s.xml">
+      <configuration name="IAccountServiceTest.saveAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest_saveAccount - 2019.01.12 at 21h 38m 18s.xml">
+      <configuration name="IAccountServiceTest.saveAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest_findAccount - 2019.01.12 at 21h 41m 39s.xml">
+      <configuration name="IAccountServiceTest.findAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest_updateAccount - 2019.01.12 at 21h 42m 48s.xml">
+      <configuration name="IAccountServiceTest.updateAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IAccountServiceTest_deleteAccount - 2019.01.12 at 21h 43m 47s.xml">
+      <configuration name="IAccountServiceTest.deleteAccount" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15142000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3660221" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="JRebel" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.33384615" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41900313" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067025" side_tool="true" weight="0.32344213" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32937685" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="JRebel Executor" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32918397" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.325067" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/config/SpringConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jdbcConfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" lean-forward="true" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/util/impl/BeanHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/util/ResultSetHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/ui/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/domain/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl_old.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/util/DBAssit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bean.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/service/IAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="27" column="22" lean-forward="true" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/dao/IAccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/dao/impl/AccountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/IAccountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <last-edited>Manual container configuration|Manual</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
