@@ -1,6 +1,5 @@
 package com.wangyu.ui;
 
-import com.wangyu.dao.IAccountDao;
 import com.wangyu.service.IAccountService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -15,9 +14,12 @@ public class Client {
         //1.获取Spring的核心容器
         ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //2.根据bean的id获取对象
-        IAccountService as = (IAccountService) ac.getBean("accountService");
-        IAccountDao adao = ac.getBean("accountDao", IAccountDao.class);
+        //  默认构造函数创建
+        //  IAccountService as = (IAccountService) ac.getBean("accountService");
+        //  静态工厂创建
+        //  IAccountService as = (IAccountService) ac.getBean("staticAccountService");
+        //  实例工厂创建
+        IAccountService as = (IAccountService) ac.getBean("instanceAccountService");
         System.out.println(as);
-        System.out.println(adao);
     }
 }
