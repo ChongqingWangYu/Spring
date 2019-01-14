@@ -1,13 +1,11 @@
 package com.wangyu.test;
 
-import config.SpringConfiguration;
 import com.wangyu.domain.Account;
 import com.wangyu.service.IAccountService;
+import config.SpringConfiguration;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 //使用Junit提供的@RunWith注解把原有的运行器替换掉，替换成spring提供的
