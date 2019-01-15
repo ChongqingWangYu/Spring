@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 账户的业务层接口
  */
-public interface IAccountSerice {
+public interface IAccountService {
     /**
      * 保存账户
      * @param account
@@ -15,11 +15,15 @@ public interface IAccountSerice {
     void  saveAccount(Account account);
 
     /**
-     *
+     *  更新账户
      * @param account
      */
     void  updateAccount(Account account);
 
+    /**
+     * 删除账户
+     * @param accountId
+     */
     void  deleteAccount(Integer accountId);
 
     /**
@@ -34,4 +38,12 @@ public interface IAccountSerice {
      * @return
      */
     List<Account> findAllAccount();
+
+    /**
+     * 转账
+     * @param sourceName 转出账户
+     * @param targetName 转入账户
+     * @param money 转账金额
+     */
+    void transfer(String sourceName,String targetName,Float money);
 }
