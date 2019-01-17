@@ -45,17 +45,17 @@ public class AccountServiceImpl implements IAccountService {
     @Override
     public void transfer(String sourceName, String targetName, Float money) {
         //1.根据名称查询转出账户
-        Account source=accountDao.findById(sourceName);
+        Account source = accountDao.findById(sourceName);
         //2.根据名称查询转入账户
-        Account target=accountDao.findById(targetName);
+        Account target = accountDao.findById(targetName);
         //3.转出账户减钱
-        source.setMoney(source.getMoney()-money);
+        source.setMoney(source.getMoney() - money);
         //4.转入账户加钱
-        target.setMoney(target.getMoney()+money);
+        target.setMoney(target.getMoney() + money);
         //5.更新转出账户
         accountDao.update(source);
         //模拟转账异常
-        int i=1/0;
+        int i = 1 / 0;
         //6.更新转入账户
         accountDao.update(target);
 

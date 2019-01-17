@@ -2,12 +2,14 @@ package com.wangyu.test;
 
 import com.wangyu.domain.Account;
 import com.wangyu.service.IAccountService;
-import com.wangyu.service.impl.AccountServiceImpl;
+import com.wangyu.service.impl.AccountServiceImpl_Old;
 import org.junit.Test;
+
+import java.util.List;
 
 public class IAccountServiceTest {
 
-    private IAccountService accountService=new AccountServiceImpl();
+    private IAccountService accountService=new AccountServiceImpl_Old();
 
     @Test
     public void saveAccount() {
@@ -31,7 +33,7 @@ public class IAccountServiceTest {
 
     @Test
     public void findAccountById() {
-        Account account=accountService.findAccountById(1);
+        Account account=accountService.findAccountById(3);
         System.out.println(account);
     }
 
@@ -42,6 +44,8 @@ public class IAccountServiceTest {
 
     @Test
     public void findAllAccount() {
+        List<Account> list=accountService.findAllAccount();
+        System.out.println(list);
     }
 
 }

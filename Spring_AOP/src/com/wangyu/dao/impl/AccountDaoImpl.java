@@ -1,10 +1,11 @@
 package com.wangyu.dao.impl;
 
 import com.wangyu.dao.IAccountDao;
+import com.wangyu.db.dbassit.DBAssit;
+import com.wangyu.db.result.impl.BeanHandler;
+import com.wangyu.db.result.impl.BeanListHandler;
+import com.wangyu.db.utils.C3P0Utils;
 import com.wangyu.domain.Account;
-import com.wangyu.utils.C3P0Utils;
-import com.wangyu.utils.dbAssit.DBAssit;
-import com.wangyu.utils.dbAssit.handler.BeanHandler;
 
 import java.util.List;
 
@@ -14,10 +15,11 @@ import java.util.List;
  */
 public class AccountDaoImpl implements IAccountDao {
 
-    private DBAssit dbAssit = new DBAssit(C3P0Utils.getDataSource());
+    private DBAssit dbAssit = new DBAssit(C3P0Utils.getDataSource(),true);
 
     @Override
     public Account findById(Integer accountId) {
+
         return (Account) dbAssit.query("select * from account where id=?", new BeanHandler<Account>(Account.class), accountId);
     }
 
@@ -38,7 +40,7 @@ public class AccountDaoImpl implements IAccountDao {
 
     @Override
     public List<Account> findAll() {
-        return null;
+        return (List<Account>) dbAssit.query("select * from account", new BeanListHandler<>(Account.class));
     }
 
     @Override
