@@ -199,8 +199,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="784" />
+    <option name="x" value="-9" />
+    <option name="width" value="785" />
     <option name="height" value="840" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -342,12 +342,12 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://I:/ProjectSave/IDEA/Spring/Spring_AOP/src/com/wangyu/test/IAccountServiceTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547726225780" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547726504689" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -388,7 +388,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IAccountServiceTest.testTransfer">
+  <component name="RunManager" selected="JUnit.IAccountServiceTest">
+    <configuration name="IAccountServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_Transaction" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangyu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wangyu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IAccountServiceTest.deleteAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_Transaction" />
       <extension name="coverage">
@@ -453,36 +467,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IAccountServiceTest.updateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring_Transaction" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangyu.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wangyu.test" />
-      <option name="MAIN_CLASS_NAME" value="com.wangyu.test.IAccountServiceTest" />
-      <option name="METHOD_NAME" value="updateAccount" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.IAccountServiceTest.updateAccount" />
       <item itemvalue="JUnit.IAccountServiceTest.deleteAccount" />
       <item itemvalue="JUnit.IAccountServiceTest.findAllAccount" />
       <item itemvalue="JUnit.IAccountServiceTest.findAccountById" />
       <item itemvalue="JUnit.IAccountServiceTest.testTransfer" />
+      <item itemvalue="JUnit.IAccountServiceTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IAccountServiceTest" />
         <item itemvalue="JUnit.IAccountServiceTest.testTransfer" />
         <item itemvalue="JUnit.IAccountServiceTest.findAccountById" />
         <item itemvalue="JUnit.IAccountServiceTest.findAllAccount" />
         <item itemvalue="JUnit.IAccountServiceTest.deleteAccount" />
-        <item itemvalue="JUnit.IAccountServiceTest.updateAccount" />
       </list>
     </recent_temporary>
   </component>
