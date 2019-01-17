@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1901d328-c795-4b96-ae9b-15dfb1064ca3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/junitgenerator-prj-settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/libraries/DBAssit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/libraries/Spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/libraries/c3p0_0_9_5_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/libraries/mysql_connector_java_5_1_44_bin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/smartfox_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/Spring_Transaction.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/lib/DBAssit.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/lib/mysql-connector-java-5.1.44-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/dao/IAccountDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/dao/impl/AccountDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/domain/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/service/IAccountService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/service/impl/AccountServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/service/impl/AccountServiceImpl_Old.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/test/IAccountServiceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_AOP/src/com/wangyu/utils/TransactionManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Anno_Ioc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Anno_Ioc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Anno_Ioc/src/com/wangyu/util/DBAssit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Anno_Ioc/src/com/wangyu/util/DBAssit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Spring_Anno_Ioc/src/com/wangyu/util/impl/BeanHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Anno_Ioc/src/com/wangyu/util/impl/BeanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/artifacts/untitled_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/libraries/Spring_4_3_16_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Serv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/spring-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,9 +83,10 @@
     <session id="1559554369">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,12 +102,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/IAccountServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
-              <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -301,14 +292,26 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Spring_Transaction" type="b2602c69:ProjectViewProjectNode" />
               <item name="Spring_Transaction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Transaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring_Transaction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring_Transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring_Transaction" type="b2602c69:ProjectViewProjectNode" />
@@ -332,7 +335,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +344,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://I:/ProjectSave/IDEA/Spring/Spring_AOP/src/com/wangyu/test/IAccountServiceTest.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547726504689" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547726623266" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -502,6 +504,7 @@
       <workItem from="1547695720188" duration="2096000" />
       <workItem from="1547712918702" duration="9277000" />
       <workItem from="1547726214041" duration="141000" />
+      <workItem from="1547726482619" duration="344000" />
     </task>
     <task id="LOCAL-00001" summary="day3:SpringAOP">
       <created>1547436600403</created>
@@ -542,9 +545,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="IAccountServiceTest_findAccountById - 2019.01.17 at 19h 02m 42s.xml">
-      <configuration name="IAccountServiceTest.findAccountById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="IAccountServiceTest_findAccountById - 2019.01.17 at 19h 03m 29s.xml">
       <configuration name="IAccountServiceTest.findAccountById" configurationId="JUnit" />
     </history-entry>
@@ -572,14 +572,17 @@
     <history-entry file="IAccountServiceTest_testTransfer - 2019.01.17 at 19h 33m 03s.xml">
       <configuration name="IAccountServiceTest.testTransfer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IAccountServiceTest - 2019.01.17 at 20h 01m 37s.xml">
+      <configuration name="IAccountServiceTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35798000" />
+    <option name="totallyTimeSpent" value="36142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18498659" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -851,7 +854,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/IAccountServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="54" lean-forward="true" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
