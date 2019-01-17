@@ -1,7 +1,6 @@
 package com.wangyu.utils;
 
-import com.wangyu.db.dbassit.DBAssit;
-import com.wangyu.db.utils.C3P0Utils;
+import com.wangyu.dbassit.DBAssit;
 
 import java.sql.SQLException;
 

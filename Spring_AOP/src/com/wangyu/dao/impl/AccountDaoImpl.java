@@ -1,11 +1,11 @@
 package com.wangyu.dao.impl;
 
 import com.wangyu.dao.IAccountDao;
-import com.wangyu.db.dbassit.DBAssit;
-import com.wangyu.db.result.impl.BeanHandler;
-import com.wangyu.db.result.impl.BeanListHandler;
-import com.wangyu.db.utils.C3P0Utils;
+import com.wangyu.dbassit.DBAssit;
 import com.wangyu.domain.Account;
+import com.wangyu.result.impl.BeanHandler;
+import com.wangyu.result.impl.BeanListHandler;
+import com.wangyu.utils.C3P0Utils;
 
 import java.util.List;
 
