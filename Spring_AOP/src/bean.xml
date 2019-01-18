@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+<!--配置业务层-->
+    <bean id="accountService" class="com.wangyu.service.impl.AccountServiceImpl"/>
+    <!--Spring基于xml的aop配置步骤：
+        前期准备：
+            1.拷贝aop的jar包
+            2.在配置文件中导入aop的约束
+        配置步骤：
+            1.把通知bean也交给spring来管理
+            2.把aop名称空间下的aop：config标签开始aop的配置
+            3.使用aop：aspect标签，开始配置切面。
+                    id属性：用于给切面提供一个唯一标识
+                    ref属性：用于引用通知bean的id。
+            4.使用aop：before标签配置前置通知
+                    method属性：用于指定通知类中的那个方法是前置通知。
+                    pointcut属性：用于指定切入点表达式。
+                        切入点表达式：
+                            关键字：execution（表达式）
+                        表达式的写法：
+                            访问修饰符 返回值 包名.包名...类名.方法名（参数列表）
+                            全匹配方式：
+                                    public void com.wangyu.service.imp1.AccountserviceImp1.saveAccount()
+                                访问修饰符可以省略：
+                                    void com.wangyu.service.imp1.AccountServiceImpl.saveAccount()
+                                返回值可以使用*，表示任意返回值类型
+                                    * com.wangyu.service.imp1.AccountServiceImp1.saveAccount()
+                                包名可以使用*，表示任意包。但是有几级包，需要写几个*
+                                    * *.*.*.*.AccountServiceImp1.saveAccount()
+                                包名可以使用。.表示当前包及其子包：
+                                    * *..AccountServiceImpl.saveAccount()
+                                类名可以使用*，表示任意类
+                                    * *..*.saveAccount()
+                                方法名可以使用*，表示任意方法
+                                    * com.wangyu..*.*()
+                                参数列表可以指定具体类型：
+                                        基本类型直接写类型名称：* com.wangyu..*.*(int)
+                                        引用类型必须是包名。类名的方式：* com.wangyu..*.*(java.lang.String)
+                                参数列表可以使用*，表示任意参数类型，但是必须有参数
+                                        * com.wangyu..*.*（*）
+                                参数列表可以使用..，表示有无参数均可：
+                                        * com.wangyu..*.*(..)
+                                全通配：
+                                        * *..*.*（.）
+                                在实际开发中，切入点表达式的使用是根据需求决定的，我们一般情况下都是对业务层的方法增强：
+                                所以在写的时候：
+                                        * com.wangyu.service.impl.*.*(..)
+    -->
+    <bean id="Logger" class="com.wangyu.utils.Logger"/>
+    <aop:config>
+        <aop:aspect id="LogAdvice" ref="Logger">
+            <!--<aop:pointcut id="saveAccount" expression="execution(public void com.wangyu.service.impl.AccountServiceImpl.saveAccount())"/>-->
+            <aop:pointcut id="saveAccount" expression="execution(* com.wangyu.service.impl.*.*(..))"/>
+            <aop:before method="beforePrintLog" pointcut-ref="saveAccount"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
