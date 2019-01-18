@@ -17,7 +17,7 @@ public class Client {
         ApplicationContext ac= new ClassPathXmlApplicationContext("bean.xml");
         IAccountService accountService=ac.getBean("accountService", IAccountService.class);
         accountService.saveAccount();
-        accountService.updateAccount(1);
-        accountService.deletAccount(1);
+//        accountService.updateAccount(1);
+//        accountService.deletAccount(1);
     }
 }

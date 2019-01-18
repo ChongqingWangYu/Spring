@@ -54,10 +54,24 @@
     -->
     <bean id="Logger" class="com.wangyu.utils.Logger"/>
     <aop:config>
+        <aop:pointcut id="pointcut1" expression="execution(* com.wangyu.service.impl.*.*(..))"/>
         <aop:aspect id="LogAdvice" ref="Logger">
-            <!--<aop:pointcut id="saveAccount" expression="execution(public void com.wangyu.service.impl.AccountServiceImpl.saveAccount())"/>-->
-            <aop:pointcut id="saveAccount" expression="execution(* com.wangyu.service.impl.*.*(..))"/>
-            <aop:before method="beforePrintLog" pointcut-ref="saveAccount"/>
+            <!--<aop:before method="beforePrintLog" pointcut="execution(public void com.wangyu.service.impl.AccountServiceImpl.saveAccount())"/>-->
+            <!--配置前置通知：它永远都会在切入点方法执行之前执行-->
+            <!--<aop:before method="beforePrintLog" pointcut="execution(* com.wangyu.service.impl.*.*(..))"/>-->
+            <!--配置后置通知：当切入点方法正常执行之后，后置通知执行。它和异常通知只能有一个执行-->
+            <!--<aop:before method="afterReturningPrintLog" pointcut="execution(* com.wangyu.service.impl.*.*(..))"/>-->
+            <!--配置异常通知：党切入点方法执行产生异常后执行。它和后置通知是互斥的-->
+            <!--<aop:before method="afterThrowingPrintLog" pointcut="execution(* com.wangyu.service.impl.*.*(..))"/>-->
+            <!--配置最终通知：无论切入点方法是否正常执行，它都会在其后面执行-->
+            <!--<aop:before method="afterPrintLog" pointcut="execution(* com.wangyu.service.impl.*.*(..))"/>-->
+
+            <!--配置环绕通知：详细注释在Logger累中-->
+            <!--<aop:around method="aroundPrintLog" pointcut="execution(* com.wangyu.service.impl.*.*(..))"/>-->
+            <aop:around method="aroundPrintLog" pointcut-ref="pointcut1"/>
+            <!--使用aop:pointcut标签可以配置通用切入点表达式写在切面aop:aspect标签内部，只能当前切面使用。
+                如果要想所有切面使用，请写到aop:aspect标签之前-->
+            <!--<aop:pointcut id="pointcut1" expression="execution(* com.wangyu.service.impl.*.*(..))"/>-->
         </aop:aspect>
     </aop:config>
 </beans>

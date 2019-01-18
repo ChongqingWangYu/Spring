@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="DBAssit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/DBAssit.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

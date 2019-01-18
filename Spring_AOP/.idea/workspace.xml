@@ -2,44 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cac8bd7-2c6f-47d8-8c39-ec69ef9bdd59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/aspectjweaver_1_9_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring_AOP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/aspectjweaver-1.9.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aop-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-aspects-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-beans-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-indexer-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-context-support-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-core-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-expression-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-instrument-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jcl-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jdbc-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-jms-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-messaging-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-orm-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-oxm-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-test-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-tx-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-web-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webflux-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-webmvc-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring-websocket-5.1.4.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wangyu/service/IAccountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wangyu/test/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/wangyu/utils/Logger.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring_Proxy/.idea/libraries/asm_3_3_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring_Proxy/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring_Proxy/lib/asm-3.3.1.jar" afterDir="false" />
@@ -61,6 +23,10 @@
       <change afterPath="$PROJECT_DIR$/../Spring_ServiceProxy/src/com/wangyu/service/impl/AccountServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring_ServiceProxy/src/com/wangyu/test/IAccountServiceTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Spring_ServiceProxy/src/com/wangyu/utils/TransactionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/bean.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wangyu/test/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wangyu/test/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/wangyu/utils/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wangyu/utils/Logger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring_Proxy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Proxy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring_Proxy/Spring_Proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Proxy/Spring_Proxy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Spring_Proxy/out/production/Spring_Proxy/com/wangyu/proxy/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring_Proxy/out/production/Spring_Proxy/com/wangyu/proxy/Client$1.class" afterDir="false" />
@@ -98,14 +64,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="306" />
-          <entry key="xml" value="735" />
+          <entry key="java" value="849" />
+          <entry key="txt" value="27" />
+          <entry key="xml" value="965" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="306" />
-          <entry key="XML" value="735" />
+          <entry key="JAVA" value="849" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="XML" value="965" />
         </counts>
       </usages-collector>
     </session>
@@ -133,30 +101,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wangyu/utils/Logger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="135">
+              <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
               <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+                <element signature="e#533#534#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/bean.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+            <state relative-caret-position="254">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="144">
+              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,11 +166,11 @@
         <option value="$PROJECT_DIR$/src/com/wangyu/bean.xml.fxml" />
         <option value="$PROJECT_DIR$/src/com/wangyu/bean.xml" />
         <option value="$PROJECT_DIR$/src/com/wangyu/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/wangyu/utils/Logger.java" />
         <option value="$PROJECT_DIR$/src/com/wangyu/service/IAccountService.java" />
         <option value="$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/bean.xml" />
         <option value="$PROJECT_DIR$/src/com/wangyu/test/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyu/utils/Logger.java" />
+        <option value="$PROJECT_DIR$/src/bean.xml" />
       </list>
     </option>
   </component>
@@ -215,10 +189,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="923" />
-    <option name="y" value="12" />
-    <option name="width" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -343,7 +316,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547814547672" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547816956787" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -399,18 +372,26 @@
       <option name="presentableId" value="Default" />
       <updated>1547795803128</updated>
       <workItem from="1547795806078" duration="4366000" />
-      <workItem from="1547800512646" duration="5071000" />
+      <workItem from="1547800512646" duration="7492000" />
     </task>
+    <task id="LOCAL-00001" summary="AOP基础_1">
+      <created>1547814616926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547814616926</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9437000" />
+    <option name="totallyTimeSpent" value="11858000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="739" y="10" width="800" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.40745857" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.40700808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
@@ -420,7 +401,7 @@
       <window_info id="Designer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36292836" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34569734" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -450,6 +431,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AOP基础_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="AOP基础_1" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/wangyu/bean.xml.fxml" />
     <entry file="file://$PROJECT_DIR$/src/com/wangyu/service/IAccountService.java">
@@ -473,6 +458,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/utils/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#533#534#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wangyu/service/impl/AccountServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -486,31 +488,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wangyu/utils/Logger.java">
+    <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="144">
+          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bean.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="59" column="72" lean-forward="true" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wangyu/test/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="254">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
         </state>
       </provider>
     </entry>
