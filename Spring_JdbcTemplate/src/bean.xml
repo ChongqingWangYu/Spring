@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 配置Service-->
+    <bean id="userService" class="com.wangyu.service.impl.UserServiceImpl">
+        <property name="userDaoImpl" ref="userDao"/>
+    </bean>
+
+    <!-- 配置Jdbc操作模版-->
+    <!--<bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">-->
+        <!--<property name="dataSource" ref="dataSource"/>-->
+    <!--</bean>-->
+
+    <!-- 配置Dao，不继承JdbcDaoSupport-->
+    <!--<bean id="userDao2" class="com.wangyu.dao.impl.UserDaoImpl">-->
+        <!--<property name="jdbcTemplate" ref="jdbcTemplate"/>-->
+    <!--</bean>-->
+
+    <!-- 配置Dao，继承JdbcDaoSupport-->
+    <bean id="userDao" class="com.wangyu.dao.impl.UserDaoImpl">
+        <!--<property name="jdbcTemplate" ref="jdbcTemplate"/>-->
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!-- 配置数据源-->
+    <!--<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost:3306/db-jobms?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false"/>
+        <property name="user" value="root"/>
+        <property name="password" value="shenger"/>
+    </bean>-->
+    <!-- spring内置数据源-->
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url"
+                  value="jdbc:mysql://localhost:3306/db-jobms?useUnicode=true&amp;characterEncoding=UTF-8&amp;useSSL=false"/>
+        <property name="username" value="root"/>
+        <property name="password" value="shenger"/>
+    </bean>
+</beans>
